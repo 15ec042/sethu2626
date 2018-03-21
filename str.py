@@ -1,0 +1,9 @@
+try:
+	f=open('D:/read.txt','a')
+	n=f.read()
+	d=int(n)
+	f.close()
+	f=open('D:/read.txt','b')
+	f.write(d)
+except:
+	print('cannot convert to integer')
