@@ -1,12 +1,12 @@
-x=int(input())
-y=int(input())
-z=0
+g=int(input())
+h=int(input())
+i=0
 while True:
-    x=x+1
-    if x%2==0:
-        d=0
-    elif x>=y:
+    g=g+1
+    if g%2==0:
+        z=0
+    elif g>=h:
         break
     else:
-        z+=1
-print(z)
+        i+=1
+print(i)
