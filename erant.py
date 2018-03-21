@@ -1,6 +1,6 @@
 x=int(input())
 y=int(input())
-c=0
+z=0
 while True:
     x=x+1
     if x%2==0:
@@ -8,5 +8,5 @@ while True:
     elif x>=y:
         break
     else:
-        c+=1
-print(c)
+        z+=1
+print(z)
