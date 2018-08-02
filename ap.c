@@ -1,9 +1,9 @@
 #include<stdio.h>
 void main()
 {
-int a,n,d,tot;
-printf("enter the a,n,d");
-scanf("%d%d%d",&a,&n,&d);
-tot=a+(n-1)*d;
-printf("%d",tot);
+int as,ns,ds,tots;
+printf("enter the as,ns,ds");
+scanf("%d%d%d",&as,&ns,&ds);
+tots=as+(ns-1)*ds;
+printf("%d",tots);
 }
